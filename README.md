@@ -9,10 +9,15 @@ To write a program to find the LU Decomposition of a matrix.
 
 ## Algorithm
 1.Import numpy library using import statement.
+
 2.From scipy package import lu_factor() and lu_solve().
+
 3.Get two inputs from user and pass it as matrix array.
+
 4.Find lu and pivot value of first marix using lu_factor().
+
 5.Find solution of the matrix by using lu_solve() by passing lu, pivot values as first argument and second matrix as second argument.
+
 6.Print the solution.
 
 
